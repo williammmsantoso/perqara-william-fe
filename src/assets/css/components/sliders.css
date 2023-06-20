@@ -1,0 +1,30 @@
+.vueperslides__track {
+    padding-top: 56px;
+}
+
+.vueperslides__bullet .default {
+  background-color: white !important;
+  border: none;
+  box-shadow: none;
+  transition: 0.3s;
+  width: 12px;
+  height: 12px;
+}
+
+.vueperslides__bullet--active .default {
+    background-color: #E74C3C !important;
+    width: 60px !important;
+    border: none !important;
+}
+
+.vueperslide {
+    opacity: 0.5;
+}
+
+.vueperslide--active {
+    opacity: 1;
+}
+
+.poster-slider {
+    height: 425px;
+}

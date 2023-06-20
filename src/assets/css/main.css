@@ -1,0 +1,67 @@
+@import './base.css';
+@import './spacing/index.css';
+@import './components/index.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#app {}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+main {
+  margin: 100px 0;
+}
+
+.footer-container {
+  background: #151920;
+}
+
+.bg-main {
+  background: #E74C3C;
+}
+.color-main {
+  color: #E74C3C;
+}
+.border-main {
+  border-color: #E74C3C;
+}
+.fill-main {
+  fill: #E74C3C;
+}
+
+.bg-blck {
+  background: #1E232B;
+}
+.bg-blck-2 {
+  background: #2e363f;
+}
+
+.h-150 {
+  height: 600px;
+}
+
+.title-filter {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #E5E5E5;
+  margin-bottom: 24px;
+  border-bottom: 0.8px solid #2a2e36;
+  padding-bottom: 16px;
+}
+.title-filter.type-top {
+  border-top: 0.8px solid #2a2e36;
+  padding-top: 16px;
+}
+
+@media (hover: hover) {}
+
+@media (min-width: 1024px) {}
